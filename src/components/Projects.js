@@ -4,6 +4,7 @@ import portfolioImg from "../assets/portfolioimage.png";
 import badrobotsirlImg from "../assets/badrobotsirl.png";
 import mpsarchImg from "../assets/mpsarchitecture.png";
 import dadskitchenImg from "../assets/dadskitchen.png";
+import pulseImg from "../assets/pulse.png";
 
 export const Projects = () => {
   const projects = [
@@ -43,6 +44,14 @@ export const Projects = () => {
       imgUrl: portfolioImg,
       skills: "Frontend - JavaScript, React.js, HTML, CSS",
       status: "Always a work in progress ;)"
+    },
+    {
+      title: "Pulse",
+      description: "Built a web app for Black Heart Association that visualizes community impact, streamlines scheduling, surfaces policy and health insights via an interactive map, and provides a CDC-informed chatbot for actionable decision support.",
+      link: "https://github.com/cfgtexas25/Team-34",
+      imgUrl: pulseImg,
+      skills: "Python, Flask, React, JavaScript, HTML, CSS",
+      status: "Completed at the J.P. Morgan Chase Code For Good Hackathon 2026"
     }
   ];
 
